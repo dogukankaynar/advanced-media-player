@@ -24,7 +24,7 @@ type DataContextType={
     setArtistList:React.Dispatch<React.SetStateAction<Artist[]>>,
 }
 
-const DataContext = createContext<DataContextType|null>(null)
+const DataContext = createContext<DataContextType>({} as DataContextType)
 
 const DataProvider:React.FC<DataProviderProps> = ({children})=>{
     

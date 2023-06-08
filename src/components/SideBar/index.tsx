@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from "./styles.module.css"
 const SideBar:React.FC = () => {
   return (
-    <div>SideBar</div>
+    <div className={styles.container}>SideBar</div>
   )
 }
 

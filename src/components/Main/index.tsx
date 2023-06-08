@@ -1,8 +1,11 @@
 import React from 'react'
-
+import MusicList from '../MusicList'
+import styles from "./styles.module.css"
 const Main:React.FC = () => {
   return (
-    <div>Main</div>
+    <div className={styles.container}>
+      <MusicList/>
+    </div>
   )
 }
 
