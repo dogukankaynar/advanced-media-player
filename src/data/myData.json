@@ -1,0 +1,241 @@
+{
+    "musicList": [
+        {
+            "id": 1,
+            "title": "Du Hast",
+            "img": "https://i.ytimg.com/vi/W3q8Od5qJio/maxresdefault.jpg",
+            "artist_name": "Rammstein"
+        },
+        {
+            "id": 2,
+            "title": "Worrior of the World",
+            "img": "https://upload.wikimedia.org/wikipedia/tr/f/ff/Warriors_of_the_World_%28Manowar_album%29_cover_art.jpg",
+            "artist": "Manowar"
+        },
+        {
+            "id": 3,
+            "title": "Holy Wars... The Punishment Due",
+            "img": "https://images.genius.com/d851aa7a4ad908ea46d5fa744775699a.1000x1000x1.png",
+            "artist_name": "Megadeth"
+        },
+        {
+            "id": 4,
+            "title": "Smoke on the Water",
+            "img": "https://i.discogs.com/NU4S2P894ZqmaWqmjZR_0CnfxBbmcPRL5R2-mU5faoM/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxNTkz/NjQtMTQ2MzQ4MzY2/Mi00OTI1LmpwZWc.jpeg",
+            "artist_name": "Deep Purple"
+        },
+        {
+            "id": 5,
+            "title": "Primo Victoria",
+            "img": "https://upload.wikimedia.org/wikipedia/en/8/8f/Primo_Victoria_album_cover.jpg",
+            "artist_name": "Sabaton"
+        },
+        {
+            "id": 6,
+            "title": "Holy Diver",
+            "img": "https://upload.wikimedia.org/wikipedia/en/0/08/DioHolyDiver.jpg",
+            "artist_name": "Dio"
+        },
+        {
+            "id": 7,
+            "title": "Fear of the Dark",
+            "img": "https://upload.wikimedia.org/wikipedia/tr/b/bb/IronMaiden-FearOfTheDark.jpg",
+            "artist_name": "Iron Maiden"
+        },
+        {
+            "id": 8,
+            "title": "Wolf Totem",
+            "img": "https://m.media-amazon.com/images/M/MV5BN2YxYTkzZjctYzA3MS00OGQ2LWE3NjItZmU5OTRiODhiM2Q0XkEyXkFqcGdeQXVyNzA1OTk3Mw@@._V1_.jpg",
+            "artist_name": "The Hu"
+        },
+        {
+            "id": 9,
+            "title": "Rock and Roll All Nite",
+            "img": "https://m.media-amazon.com/images/M/MV5BODIxMWNjYzAtMGI0Ni00ODE5LWI4NTEtOGE2NWFmZWVlNjc1XkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg",
+            "artist_name": "KISS"
+        },
+        {
+            "id": 10,
+            "title": "Engel",
+            "img": "https://i.ytimg.com/an/W3q8Od5qJio/b312369f-ff03-4af6-9457-2d27f337a816_mq.jpg?v=59bdc39b",
+            "artist_name": "Rammstein"
+        },
+        {
+            "id": 11,
+            "title": "Hallowed Be Thy Name",
+            "img": "https://upload.wikimedia.org/wikipedia/tr/6/63/Hallowed_Be_Thy_Name_%28canl%C4%B1%29.jpg",
+            "artist_name": "Iron Maiden"
+        },
+        {
+            "id": 12,
+            "title": "Symphony of Destruction",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTdhZjViNGMtOWVjYi00MmNiLTlkYTctYTA4NjgwZGJkMWVkXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg",
+            "artist_name": "Megadeth"
+        },
+        {
+            "id": 13,
+            "title": "Highway Star",
+            "img": "https://i.scdn.co/image/ab67616d0000b273a83d8a82569586a65bcfd1b2",
+            "artist_name": "Deep Purple"
+        },
+        {
+            "id": 14,
+            "title": "Ghost Division",
+            "img": "https://www.sabaton.net/wp-content/uploads/2022/03/the-art-of-war-cover-500x500-1.jpg",
+            "artist_name": "Sabaton"
+        },
+        {
+            "id": 15,
+            "title": "Rainbow in the Dark",
+            "img": "https://static.qobuz.com/images/covers/lc/g6/erp4papx5g6lc_600.jpg",
+            "artist_name": "Dio"
+        },
+        {
+            "id": 16,
+            "title": "The Trooper",
+            "img": "https://m.media-amazon.com/images/I/71hX2QbDeXL.jpg",
+            "artist_name": "Iron Maiden"
+        },
+        {
+            "id": 17,
+            "title": "The Great Chinggis Khaan",
+            "img": "https://i1.sndcdn.com/artworks-jUbSXRdVWd6j-0-t500x500.png",
+            "artist_name": "The Hu"
+        },
+        {
+            "id": 18,
+            "title": "Lick It Up",
+            "img": "https://upload.wikimedia.org/wikipedia/en/e/e9/Lick_it_up_cover.jpg",
+            "artist_name": "KISS"
+        },
+        {
+            "id": 19,
+            "title": "Sonne",
+            "img": "https://i.ytimg.com/vi/StZcUAPRRac/maxresdefault.jpg",
+            "artist_name": "Rammstein"
+        },
+        {
+            "id": 20,
+            "title": "Metal Heart",
+            "img": "https://pbs.twimg.com/media/FM9TrZZXEAI4vHI.jpg:large",
+            "artist_name": "Accept"
+        },
+        {
+            "id": 21,
+            "title": "Peace Sells",
+            "img": "https://upload.wikimedia.org/wikipedia/en/4/40/Megadeth_-_Peace_Sells..._But_Who%27s_Buying-.jpg",
+            "artist_name": "Megadeth"
+        },
+        {
+            "id": 22,
+            "title": "Soldier of Fortune",
+            "img": "https://i.discogs.com/IYd5SLmv0VAfDO_Izzurpjb-ggCcEIQVkiBRy8FMaWM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTM3/MDMtMTMyODY3MzU1/OS5qcGVn.jpeg",
+            "artist_name": "Deep Purple"
+        },
+        {
+            "id": 23,
+            "title": "The Sons Of Odin",
+            "img": "https://i.discogs.com/W7FGSIA6suD3MpuGCGHQIRRjLRmzSNRGeL4NI103m_M/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NTU1/OTMtMTQ3NDk1OTc2/OC0yNTc1LmpwZWc.jpeg",
+            "artist_name": "Manowar"
+        },
+        {
+            "id": 24,
+            "title": "We Rock",
+            "img": "https://upload.wikimedia.org/wikipedia/en/6/62/Dio-We-Rock.jpg",
+            "artist_name": "Dio"
+        },
+        {
+            "id": 25,
+            "title": "When the Wild Wind Blows",
+            "img": "https://s3.amazonaws.com/halleonard-coverimages/wl/00691058-wl.jpg",
+            "artist_name": "Iron Maiden"
+        },
+        {
+            "id": 26,
+            "title": "Shoog Shoog",
+            "img": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/e1/da/88/e1da886c-ec03-f83e-a77b-825e4c00a9f3/849320098409.png/375x375bb.jpg",
+            "artist_name": "The Hu"
+        },
+        {
+            "id": 27,
+            "title": "I Wanna Rock",
+            "img": "https://i1.sndcdn.com/artworks-oXz9XE4SL55rVVWy-qG9cPw-t500x500.jpg",
+            "artist_name": "Twisted Sister"
+        },
+        {
+            "id": 28,
+            "title": "Deutschland",
+            "img": "https://m.media-amazon.com/images/M/MV5BZjMwNzNjMzYtMGY1YS00MjY1LWI4NjctNDk1YjRlOTM0MDljXkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_.jpg",
+            "artist_name": "Rammstein"
+        },
+        {
+            "id": 29,
+            "title": "Mutter",
+            "img": "https://upload.wikimedia.org/wikipedia/en/5/5e/Mutter.jpg",
+            "artist_name": "Rammstein"
+        },
+        {
+            "id": 30,
+            "title": "Detroit Rock City",
+            "img": "https://i.scdn.co/image/ab67616d0000b273384cc8538f113f2dd7eac944",
+            "artist": "KISS"
+        }
+    ],
+    "artist_list": [
+        {
+            "id": 1,
+            "name": "Rammstein",
+            "artist_img": "https://i.ytimg.com/an/W3q8Od5qJio/b312369f-ff03-4af6-9457-2d27f337a816_mq.jpg?v=59bdc39b"
+        },
+        {
+            "id": 2,
+            "name": "Manowar",
+            "artist_img": "https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2018/11/kings-of-metal-582f59295b153.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Megadeth",
+            "artist_img": "https://i.scdn.co/image/ab67616d0000b273be9fa5a89479b6af481938a0"
+        },
+        {
+            "id": 5,
+            "name": "Deep Purple",
+            "artist_img": "https://i.discogs.com/53Qt8vZl-wO-5m1ENErFuRa8yyPYcnGJopin6mllQWQ/rs:fit/g:sm/q:90/h:572/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE3MDM1/NS0xMzE4MDgwOTAx/LmpwZWc.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Sabaton",
+            "artist_img": "https://i.scdn.co/image/ab6761610000e5eb97d68537c39dc8bcebbd9e6c"
+        },
+        {
+            "id": 7,
+            "name": "Dio",
+            "artist_img": "https://upload.wikimedia.org/wikipedia/en/0/08/DioHolyDiver.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Iron Maiden",
+            "artist_img": "https://productimages.hepsiburada.net/s/1/375/9493058715698.jpg"
+        },
+        {
+            "id": 9,
+            "name": "The Hu",
+            "artist_img": "https://yt3.ggpht.com/proxy/Rep4izLWZh3R5YZyG7sQfX-3j8SwDD4iNrHqt0I-lPUbD7Lcs0oOUIA7twJ1o5GylSCiwUd5tnHPzBxrrpbDn2XAKaakUgk-oubiA97E40wbX2SKnxYPZ1MAGRWFhXcrTJKXs-i8j_eJNvR_44kC7zLeUaYfIrOekdyZ12hyd3lgpA4OW-d6p2BKCPhgb-kFg0j0UgzNlKm_x-W2NCkNQ4b8a1lUlBeeboCUq6Pb6QZvbfLECaoUjqHzTOuolFz5uPtQ8wT6g2_o7DhyL31OAtY=-w400-h400-n-rj-c0xffffffff"
+        },
+        {
+            "id": 10,
+            "name": "KISS",
+            "artist_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kiss_Love_Gun_era.png/300px-Kiss_Love_Gun_era.png"
+        },
+        {
+            "id": 11,
+            "name": "Twisted Sister",
+            "artist_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kiss_Love_Gun_era.png/300px-Kiss_Love_Gun_era.png"
+        },
+        {
+            "id": 11,
+            "name": "Accept",
+            "artist_img": "https://cdn2.dokuzsoft.com/u/hammeronlineshop/img/c/r/-/r-6010379-1430512564-8516-jpeg-1493579269.jpg"
+        }
+    ]
+}
