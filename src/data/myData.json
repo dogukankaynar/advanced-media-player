@@ -10,7 +10,7 @@
             "id": 2,
             "title": "Worrior of the World",
             "img": "https://upload.wikimedia.org/wikipedia/tr/f/ff/Warriors_of_the_World_%28Manowar_album%29_cover_art.jpg",
-            "artist": "Manowar"
+            "artist_name": "Manowar"
         },
         {
             "id": 3,
@@ -178,10 +178,10 @@
             "id": 30,
             "title": "Detroit Rock City",
             "img": "https://i.scdn.co/image/ab67616d0000b273384cc8538f113f2dd7eac944",
-            "artist": "KISS"
+            "artist_name": "KISS"
         }
     ],
-    "artist_list": [
+    "artistList": [
         {
             "id": 1,
             "name": "Rammstein",
