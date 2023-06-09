@@ -1,6 +1,10 @@
 .container{
-    background-color: #121212;
+    /* background-color: #121212; */
+    width: 1200px;
     color: white;
     height: auto;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+
 }
