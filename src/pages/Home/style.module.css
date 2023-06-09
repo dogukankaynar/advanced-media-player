@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    justify-content: space-between;
-    background-color:#121212;
+    justify-content: space-around;
+    background-color:black;
 }

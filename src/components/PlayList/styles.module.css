@@ -1,13 +1,14 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    min-height:290px ;
+    min-height: 290px;
     padding: 30px;
     background-image: linear-gradient(rgba(155, 4, 92, 0.514), transparent);
     border-radius: 10px;
 }
-.row{
-display: flex;
-flex-wrap: wrap;
-gap:35px
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px ;
 }

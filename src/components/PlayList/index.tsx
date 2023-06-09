@@ -1,10 +1,10 @@
 import React from "react";
 import PlayListItem from "../PlayListItem";
 import styles from "./styles.module.css";
-import { DataList } from "../../context/DataContext";
+import { useDataList } from "../../context/DataContext";
 
 const PlayList: React.FC = () => {
-  const { artistList } = DataList();
+  const { artistList } = useDataList();
   return (
     <div className={styles.container}>
       <div>

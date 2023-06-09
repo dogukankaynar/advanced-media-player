@@ -43,6 +43,6 @@ return(
     <DataContext.Provider value={values}>{children}</DataContext.Provider>
 )
 };
-const DataList = () => useContext(DataContext);
+const useDataList = () => useContext(DataContext);
 
-export{DataList,DataProvider}
+export{useDataList,DataProvider}
