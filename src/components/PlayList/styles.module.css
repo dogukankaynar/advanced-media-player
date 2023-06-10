@@ -24,4 +24,7 @@
     .row{
         grid-template-columns: repeat(1, 1fr);
     }
+    .container{
+        padding: 8px;
+    }
 }

@@ -9,3 +9,8 @@
     top: 0;
     margin-right: 8px;
 }
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 101px;
+    }
+}

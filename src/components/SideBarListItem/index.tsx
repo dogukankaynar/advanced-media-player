@@ -1,8 +1,9 @@
 import React from "react";
+import { Music } from "../../context/DataContext";
 import styles from "./styles.module.css";
 
 type ListItemProps = {
-  item: any; // Music türüne göre güncelleyin
+  item: Music; // Music türüne göre güncelleyin
   index: number;
 };
 

@@ -1,6 +1,5 @@
 .container{
     height: 70px;
-    width: 100%;
     border-radius: 5px;
     display: flex;
     padding: 4px 24px;
@@ -23,4 +22,13 @@
     align-items: center;
     font-weight: 500;
     font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+    .artistName{
+        display: none;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+    }
 }

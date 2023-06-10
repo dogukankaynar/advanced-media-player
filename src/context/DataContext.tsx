@@ -1,14 +1,14 @@
 import { createContext, useState,useContext } from "react";
 import data from "../data/myData.json"
 
-type Music={
+export type Music={
     id:number,
     title:string,
     img:string,
     artist_name:string
 }
 
-type Artist={
+export type Artist={
     id:number,
     name:string,
     artist_img:string

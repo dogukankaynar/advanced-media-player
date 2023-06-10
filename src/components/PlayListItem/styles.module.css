@@ -4,13 +4,11 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
-    background-color: #5D3C4F;
+    background-color: rgba(80, 72, 80, 0.795);
 
 }
 .container:hover {
     background-color: #856879;
-}
-.container:hover .img{
 }
 
 .img{
