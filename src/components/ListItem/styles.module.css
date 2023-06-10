@@ -45,7 +45,18 @@
   gap: 8px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 814px) {
+  .container {
+    width: 160px;
+  }
+
+  .img {
+    width: 160px;
+    height:160px;
+  }
+}
+
+@media only screen and (max-width: 774px) {
   .container {
     width: 226px;
     flex-direction: row;
@@ -63,16 +74,17 @@
   }
 
   .title {
-    width:99px;
+    width: 99px;
     text-align: start;
   }
 }
+
 @media only screen and (max-width: 665px) {
-  .container{
+  .container {
     width: 100%;
   }
-  .title{
+
+  .title {
     font-size: 12px;
-    background-color: blue;
   }
 }
