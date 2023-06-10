@@ -63,12 +63,16 @@
   }
 
   .title {
-    width: 130px;
+    width:99px;
     text-align: start;
   }
 }
 @media only screen and (max-width: 665px) {
   .container{
     width: 100%;
+  }
+  .title{
+    font-size: 12px;
+    background-color: blue;
   }
 }
