@@ -1,6 +1,6 @@
 .container{
-    width: 230px;
-    padding: 8px 14px;
+    width: -webkit-fill-available;
+    padding: 8px 0;
     border-radius: 5px;
     background-color: #121212;
     height: 100vh;
@@ -8,16 +8,19 @@
     flex-direction: column;
     gap: 5px;
     overflow-y: auto;
+    overflow-x: hidden;
 
 }
 /* Tüm scroll çubukları için geçerli */
 ::-webkit-scrollbar {
-    width: 10px; /* Scroll çubuğunun genişliği */
+    width: 8px; /* Scroll çubuğunun genişliği */
   }
   
   /* Dikey scroll çubuğu */
   ::-webkit-scrollbar-thumb {
     background-color: #898989; /* Scroll çubuğu rengi */
+    border-radius: 4px;
+
   }
   
   /* Dikey scroll çubuğu üzerine gelindiğinde */

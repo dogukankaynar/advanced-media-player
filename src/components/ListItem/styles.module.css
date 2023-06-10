@@ -1,16 +1,14 @@
 .container{
-    width: 200px;
-    height: 290px;
+    max-width: 180px;
     color: #b3b3b3;
     background-color: #222;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
-    justify-content: space-between;
+    gap: 16px;
 }
 .container:hover {
     background-color: #282828;
@@ -21,14 +19,26 @@
     height:180px ;
     object-fit: cover;
     box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .title{
     font-weight: 700;
-    height: 30px;
     color: white;
     text-align: center;
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+
 }
 .desc{
     font-size: 13px;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }

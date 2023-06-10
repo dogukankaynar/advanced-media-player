@@ -12,9 +12,7 @@ const SideBarListItem: React.FC<ListItemProps> = ({ item }) => {
       <div>
         <img className={styles.img} src={item.img} alt="" />
       </div>
-      <div className={styles.align}>
-        <p>{item.artist_name}</p>
-      </div>
+        <p className={styles.artistName}>{item.artist_name}</p>
     </div>
   );
 };

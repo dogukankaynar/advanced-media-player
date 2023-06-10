@@ -11,9 +11,11 @@ const PlayList: React.FC = () => {
         <h1>Senin Playlistin</h1>
       </div>
       <div className={styles.row}>
-        {artistList.map((item, index) => (
-          <PlayListItem key={index} item={item} id={item.id} />
-        ))}
+        {artistList.map((item, index) => {
+          if(index >5) return null;
+          return <PlayListItem key={index} item={item} id={item.id} />
+        }
+        )}
       </div>
     </div>
   );
