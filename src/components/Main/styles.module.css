@@ -1,12 +1,11 @@
 .container{
     /* background-color: #121212; */
     color: white;
-    height: auto;
+    height: 100%;
     padding: 8px;
-    display: flex;
-    flex-direction: column;
     background-color: #121212;
     margin-top: 10px;
     border-radius: 5px;
+    width: 100%;
 }
 

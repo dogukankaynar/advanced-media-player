@@ -1,0 +1,85 @@
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 86vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.item{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    border-radius: 10px;
+    gap:18px;
+}
+.item:hover{
+  background-color: #282828;
+
+}
+.baslik{
+    width: 50%;
+}
+
+.album{
+    width: 30%;
+}
+.yil{
+    width: 10%;
+}
+
+.itemTitle{
+    width: 50%;
+    display: flex;
+    gap: 14px;
+    padding: 4px;
+}
+.itemAlbum{
+    width: 30%;
+    
+}
+
+.itemYil{
+    width: 10%;
+    color: #b3b3b3;
+}
+.padding{
+    padding: 10px;
+}
+.color{
+ color: #b3b3b3;
+ font-size: 14px;
+}
+img{
+    width:  60px;
+    height: 60px;
+    border-radius: 2px;
+    object-fit: cover;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+.descTitle{
+    font-weight: bold;
+}
+.descP{
+    font-size: 14px;
+    color:  #a7a7a7;
+}
+hr{
+    border:1px solid grey;
+}

@@ -1,48 +1,56 @@
-import { createContext, useState,useContext } from "react";
-import data from "../data/myData.json"
+import { createContext, useState, useContext } from "react";
+import data from "../data/myData.json";
 
-export type Music={
-    id:number,
-    title:string,
-    img:string,
-    artist_name:string
-}
+export type Music = {
+  id: number;
+  title: string;
+  img: string;
+  artist_name: string;
+};
 
-export type Artist={
-    id:number,
-    name:string,
-    artist_img:string
-}
-type DataProviderProps={
-    children:React.ReactNode;
-}
+export type Artist = {
+  id: number;
+  name: string;
+  artist_img: string;
+};
+type DataProviderProps = {
+  children: React.ReactNode;
+};
 
-type DataContextType={
-    musicList:Music[],
-    setMusicList:React.Dispatch<React.SetStateAction<Music[]>>,
-    artistList:Artist[]
-    setArtistList:React.Dispatch<React.SetStateAction<Artist[]>>,
-}
+export type Albums = {
+  name: string;
+  url: string;
+  year: number;
+};
 
-const DataContext = createContext<DataContextType>({} as DataContextType)
+type DataContextType = {
+  musicList: Music[];
+  setMusicList: React.Dispatch<React.SetStateAction<Music[]>>;
+  artistList: Artist[];
+  setArtistList: React.Dispatch<React.SetStateAction<Artist[]>>;
+  value: string|null;
+  setValue: React.Dispatch<React.SetStateAction<string|null>>;
+};
 
-const DataProvider:React.FC<DataProviderProps> = ({children})=>{
-    
-    const[musicList,setMusicList]=useState<Music[]>(data.musicList)
-    const[artistList,setArtistList]=useState<Artist[]>(data.artistList)
+const DataContext = createContext<DataContextType>({} as DataContextType);
 
-    const values :DataContextType={
-        musicList,
-        setMusicList,
-        artistList,
-        setArtistList
-    }
+const DataProvider: React.FC<DataProviderProps> = ({ children }) => {
+  const [musicList, setMusicList] = useState<Music[]>(data.musicList);
+  const [artistList, setArtistList] = useState<Artist[]>(data.artistList);
+  const [value, setValue] = useState<string | null>(null);
 
 
-return(
-    <DataContext.Provider value={values}>{children}</DataContext.Provider>
-)
+  const values: DataContextType = {
+    musicList,
+    setMusicList,
+    artistList,
+    setArtistList,
+    value,
+    setValue,
+  };
+
+  return <DataContext.Provider value={values}>{children}</DataContext.Provider>;
 };
 const useDataList = () => useContext(DataContext);
 
-export{useDataList,DataProvider}
+export { useDataList, DataProvider };

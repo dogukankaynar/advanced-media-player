@@ -1,26 +1,18 @@
 .container{
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 8px;
 
 }
 .row{
     padding: 2px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
-    gap: 20px;
-  
+    justify-content: space-around;
+    gap: 8px;
 }
-
-
 .title{
     font-size: 24px;
     font-weight: 700;
-    display: inline-block;
+    display: block;
     cursor: pointer;
 }
 .title:hover{

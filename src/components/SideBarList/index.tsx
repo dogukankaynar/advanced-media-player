@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from "react";
 import styles from "./styles.module.css";
 import { useDataList } from "../../context/DataContext";
