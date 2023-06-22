@@ -3,4 +3,14 @@
     flex-direction: row;
     justify-content: space-around;
     background-color:black;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
 }

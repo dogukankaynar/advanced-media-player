@@ -22,12 +22,41 @@
 .icon{
     font-size: 24px;
 }
+.menu{
+    display: none;
+    color: rgb(90, 90, 90);
+
+    cursor: pointer;
+    font-size: 40px;
+
+}
+.menu:hover{
+    color: rgb(238, 215, 215);
+}
 
 .selected{
     color: red;
 }
 @media only screen and (max-width: 768px) {
+    .container{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        justify-content: space-around;
+        gap: 0;
+        margin-bottom: 4px;
+    }
     .item{
         font-size: 12px;
+    }
+    .item p{
+        display: none;
+    }
+    .item span{
+        font-size: 40px;
+    }
+    .menu{
+        display: inline;
     }
 }

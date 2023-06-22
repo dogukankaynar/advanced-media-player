@@ -55,16 +55,16 @@
   }
 }
 
-@media only screen and (max-width: 774px) {
+@media only screen and (max-width: 768px) {
   .container {
-    width: 226px;
+    width: 100%;
     flex-direction: row;
     justify-content: flex-start;
   }
 
   .img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
   }
 
   .textContainer {
@@ -73,12 +73,12 @@
   }
 
   .title {
-    width: 99px;
+    width:100%;
     text-align: start;
   }
 }
 
-@media only screen and (max-width: 665px) {
+/* @media only screen and (max-width: 665px) {
   .container {
     width: 100%;
   }
@@ -86,4 +86,4 @@
   .title {
     font-size: 12px;
   }
-}
+} */
