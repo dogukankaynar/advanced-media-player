@@ -24,7 +24,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         padding: 5px;
-        height: 53vh;
+        height: 55vh;
         overflow-y: auto;
         overflow-x: hidden;
     }
