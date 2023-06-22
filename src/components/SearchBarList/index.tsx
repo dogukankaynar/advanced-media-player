@@ -5,12 +5,17 @@ import styles from "./style.module.css";
 const SearchBarList: React.FC = () => {
   const { musicList, value } = useDataList();
   const [newMusicList,setNewMusicList]=useState<Music[]>([])
-  console.log(value);
-  console.log(newMusicList);
 
 
   useEffect(()=>{
-    const filteredMusicList:any = musicList.filter((music) => music.artist_name.toLocaleLowerCase() === value?.toLocaleLowerCase()); 
+    const filteredMusicList = musicList.filter((music) => {
+      const lowercaseValue = value.toLowerCase();
+      const artistName = music.artist_name.toLowerCase();
+      const title = music.title.toLowerCase();
+      
+      return artistName.includes(lowercaseValue) || title.includes(lowercaseValue);
+    });
+    
     setNewMusicList(filteredMusicList);
 
   },[musicList, value])
@@ -31,7 +36,7 @@ const SearchBarList: React.FC = () => {
         {
           value?newMusicList.map((music, index) => (
             <div className={styles.item} key={index}>
-              <p className={`${styles.itemYil} ${styles.flex}`}>{music.id}</p>
+              <p className={`${styles.itemYil} ${styles.flex}`}>{index+1}</p>
               <div className={`${styles.itemTitle} `}>
                 <img src={music.img} alt="" />
                 <div className={styles.flex}>

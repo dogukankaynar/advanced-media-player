@@ -28,8 +28,8 @@ type DataContextType = {
   setMusicList: React.Dispatch<React.SetStateAction<Music[]>>;
   artistList: Artist[];
   setArtistList: React.Dispatch<React.SetStateAction<Artist[]>>;
-  value: string|null;
-  setValue: React.Dispatch<React.SetStateAction<string|null>>;
+  value: string;
+  setValue: React.Dispatch<React.SetStateAction<string>>;
 };
 
 const DataContext = createContext<DataContextType>({} as DataContextType);
@@ -37,7 +37,7 @@ const DataContext = createContext<DataContextType>({} as DataContextType);
 const DataProvider: React.FC<DataProviderProps> = ({ children }) => {
   const [musicList, setMusicList] = useState<Music[]>(data.musicList);
   const [artistList, setArtistList] = useState<Artist[]>(data.artistList);
-  const [value, setValue] = useState<string | null>(null);
+  const [value, setValue] = useState<string >("");
 
 
   const values: DataContextType = {
